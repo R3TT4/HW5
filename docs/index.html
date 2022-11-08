@@ -1,0 +1,37 @@
+<!-- 
+    Name: Everett Johnson
+    Class: CPSC 332 
+    Assignment: Homework 5
+    Last Modified: 11/7/2022
+
+    HW5 Starter Code
+    Modified from https://github.com/end3r/Gamedev-Canvas-workshop
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HW5 Breakout</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="breakout-script.js"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+    <fieldset id="options-fieldset">
+        <legend>Options</legend>
+        <div id="options-container">
+            <button id="pause-button">Toggle Pause Game</button>
+            <div id="slider-container">
+                <label id="speed-label" for="speed-slider">Game Speed: 1</label>
+                <input type="range" min=".5" max="4" value="1" step=".05" class="slider" id="speed-slider">
+            </div>
+            <button id="reset-button">New Game (Reset)</button>
+            <button id="continue-button">Continue Playing</button>
+            <button id="reload-button">Reload Window</button>
+        </div>
+    </fieldset>
+</body>
+
+</html>
